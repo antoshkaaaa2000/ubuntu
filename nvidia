@@ -7,7 +7,5 @@ sudo dpkg -i 'download.php?file=XnViewMP-linux-x64.deb'
 sudo rm 'download.php?file=XnViewMP-linux-x64.deb'
 sudo apt purge -y gnome-text-editor evince gnome-font-viewer eog gnome-characters seahorse gnome-font-viewer gedit papers gnome-disk-utility gnome-calculator imagemagick
 sudo apt autoremove -y
-sudo add-apt-repository ppa:graphics-drivers/ppa
-sudo apt update -y
-sudo apt install -y nvidia-graphics-drivers-575
+sudo apt install -y nvidia-driver-570
 sudo reboot
