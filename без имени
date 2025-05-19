@@ -5,5 +5,5 @@ flatpak install flathub io.github.peazip.PeaZip
 wget https://www.xnview.com/download.php?file=XnViewMP-linux-x64.deb
 sudo dpkg -i 'download.php?file=XnViewMP-linux-x64.deb'
 sudo rm 'download.php?file=XnViewMP-linux-x64.deb'
-sudo apt purge -y gnome-text-editor evince gnome-font-viewer eog gnome-characters seahorse gnome-font-viewer gedit papers gnome-disk-utility gnome-calculator imagemagick
+sudo apt purge -y gnome-text-editor evince gnome-font-viewer eog gnome-characters seahorse gnome-font-viewer gedit papers gnome-disk-utility gnome-calculator imagemagick imagemagick-7-common imagemagick-7.q16
 sudo apt autoremove -y
